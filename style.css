@@ -1,0 +1,42 @@
+.pic1{
+    width: 120;
+    height: 240px;
+    
+}
+table {
+    margin: auto;
+    text-align: center;
+
+}
+body {
+    background-image: url('dbbackground.jpg');
+    background-size:contain;
+}
+td{
+    border: chocolate;
+    color: white;
+    padding: 30px;
+    
+}
+.background {
+    background: black;
+    opacity: 80%;
+    font-size: larger;
+
+}
+a:link {
+    color:white
+}
+a:visited{
+    color:whitesmoke
+}
+a:hover{
+    color:orangered
+}
+.achiev{
+    background-color: black;
+    
+}
+.links{
+    background-color: chocolate;
+}
