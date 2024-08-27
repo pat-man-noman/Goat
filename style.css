@@ -1,42 +1,98 @@
-.pic1{
-    width: 120;
-    height: 240px;
-    
+.pic1 {
+  width: 220px;
+  height: 420px;
 }
 table {
-    margin: auto;
-    text-align: center;
-
+  margin: auto;
+  text-align: center;
 }
 body {
-    background-image: url('dbbackground.jpg');
-    background-size:contain;
+  background-size: 420px;
+  background
 }
-td{
-    border: chocolate;
-    color: white;
-    padding: 30px;
-    
-}
-.background {
-    background: black;
-    opacity: 80%;
-    font-size: larger;
+
+body::after {
+  content: "";
+  background: url(dbbackground.jpg);
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed ;
+  z-index: -1;
+  background-size: 420px;
 
 }
+td {
+  border: black;
+  color: white;
+  padding: 30px;
+  padding: 10px;
+  border-color: black;
+}
+.background {
+  background: black;
+  font-size: 35px;
+}
 a:link {
-    color:white
+  color: white;
 }
-a:visited{
-    color:whitesmoke
+a:visited {
+  color: whitesmoke;
 }
-a:hover{
-    color:orangered
+a:hover {
+  color: orangered;
 }
-.achiev{
-    background-color: black;
-    
+.achiev {
+  background-color: white;
 }
-.links{
-    background-color: chocolate;
+.links {
+  background-color: black;
+}
+th {
+  background-color: black;
+  color: white;
+  font-size: 40px;
+}
+.back {
+  background: black;
+  opacity: 80%;
+  font-size: 20px;
+}
+.ground {
+  background: black;
+  opacity: 80%;
+  font-size: 30px;
+  margin-left: 9%;
+  margin-right: 9%;
+}
+.ground1 {
+  background: black;
+  opacity: 80%;
+  font-size: 30px;
+  margin-left: 4%;
+  margin-right: 26%;
+}
+.ground2 {
+  background: black;
+  opacity: 80%;
+  font-size: 30px;
+  margin-left: -7%;
+  margin-right: 20%;
+}
+img {
+  padding: 18px;
+  background-color: black;
+}
+.pic2 {
+  width: 377px;
+}
+.box {
+  padding: 10px;
+  border-color: white;
+  border: 10px;
+  background-color: black;
+  font-size: 30px;
+  border-color: black;
 }
