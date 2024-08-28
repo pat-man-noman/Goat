@@ -1,19 +1,20 @@
 .pic1 {
   width: 220px;
   height: 420px;
+  padding: 18px;
+  background-color: black;
 }
-table {
+.content {
   margin: auto;
   text-align: center;
 }
-body {
+.background {
   background-size: 420px;
   background
 }
-
-body::after {
+.background::after {
   content: "";
-  background: url(dbbackground.jpg);
+  background: url(pic/dbbackground-new.jpg);
   opacity: 0.5;
   top: 0;
   left: 0;
@@ -24,7 +25,7 @@ body::after {
   background-size: 420px;
 
 }
-td {
+.format {
   border: black;
   color: white;
   padding: 30px;
@@ -35,22 +36,24 @@ td {
   background: black;
   font-size: 35px;
 }
-a:link {
+.acomp:link {
   color: white;
 }
-a:visited {
+.acomp:visited {
   color: whitesmoke;
 }
-a:hover {
+.acomp:hover {
   color: orangered;
 }
 .achiev {
   background-color: white;
+  margin: auto;
+  text-align: center;
 }
 .links {
   background-color: black;
 }
-th {
+.ach {
   background-color: black;
   color: white;
   font-size: 40px;
@@ -81,12 +84,10 @@ th {
   margin-left: -7%;
   margin-right: 20%;
 }
-img {
-  padding: 18px;
-  background-color: black;
-}
 .pic2 {
   width: 377px;
+  padding: 18px;
+  background-color: black;
 }
 .box {
   padding: 10px;
@@ -95,4 +96,9 @@ img {
   background-color: black;
   font-size: 30px;
   border-color: black;
+  color: white;
+}
+.pic3{
+  padding: 18px;
+  background-color: black;
 }
